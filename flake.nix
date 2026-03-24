@@ -42,7 +42,7 @@
 
   outputs = inputs @ {nixpkgs, ...}: {
     nixosConfigurations = {
-      nixy =
+      nixipad =
         # CHANGEME: This should match the 'hostname' in your variables.nix file
         nixpkgs.lib.nixosSystem {
           modules = [
@@ -52,11 +52,11 @@
                 inherit inputs;
               };
             }
-            inputs.nixos-hardware.nixosModules.omen-16-n0005ne # CHANGEME: check https://github.com/NixOS/nixos-hardware
+            inputs.nixos-hardware.nixosModules.lenovo-thinkpad-x1-yoga # CHANGEME: check https://github.com/NixOS/nixos-hardware
             inputs.home-manager.nixosModules.home-manager
             inputs.stylix.nixosModules.stylix
             inputs.nix-index-database.nixosModules.default
-            ./hosts/laptop/configuration.nix # CHANGEME: change the path to match your host folder
+            ./hosts/nixipad/configuration.nix # CHANGEME: change the path to match your host folder
           ];
         };
 

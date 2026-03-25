@@ -40,7 +40,7 @@
       # Apps
       vlc # Video player
       blanket # White-noise app
-      obsidian # Note taking app
+      #obsidian # Note taking app
       textpieces # Manipulate texts
       resources # Ressource monitor
       gnome-clocks # Clocks app
@@ -84,11 +84,11 @@
     file.".face" = {source = ./profile_picture.png;};
 
     sessionVariables = {
-      AQ_DRM_DEVICES = "/dev/dri/card2:/dev/dri/card1"; # CHANGEME: Related to the GPU
+    #  AQ_DRM_DEVICES = "/dev/dri/card2:/dev/dri/card1"; # CHANGEME: Related to the GPU
     };
 
     # Don't touch this
-    stateVersion = "24.05";
+    stateVersion = "26.05";
   };
 
   programs.home-manager.enable = true;

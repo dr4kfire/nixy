@@ -36,8 +36,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     # Server
-    eleakxir.url = "github:anotherhadi/eleakxir";
-    nixarr.url = "github:rasmus-kirk/nixarr";
+    #eleakxir.url = "github:anotherhadi/eleakxir";
+    #nixarr.url = "github:rasmus-kirk/nixarr";
   };
 
   outputs = inputs @ {nixpkgs, ...}: {
@@ -75,19 +75,19 @@
         ];
       };
       # Jack is my server
-      jack = nixpkgs.lib.nixosSystem {
-        modules = [
-          {_module.args = {inherit inputs;};}
-          inputs.home-manager.nixosModules.home-manager
-          inputs.stylix.nixosModules.stylix
-          inputs.sops-nix.nixosModules.sops
-          inputs.nixarr.nixosModules.default
-          inputs.eleakxir.nixosModules.eleakxir
-          inputs.nix-index-database.nixosModules.default
-          inputs.default-creds.nixosModules.default
-          ./hosts/server/configuration.nix
-        ];
-      };
+      #jack = nixpkgs.lib.nixosSystem {
+      #  modules = [
+      #    {_module.args = {inherit inputs;};}
+      #    inputs.home-manager.nixosModules.home-manager
+      #    inputs.stylix.nixosModules.stylix
+      #    inputs.sops-nix.nixosModules.sops
+      #    inputs.nixarr.nixosModules.default
+      #    inputs.eleakxir.nixosModules.eleakxir
+      #    inputs.nix-index-database.nixosModules.default
+      #    inputs.default-creds.nixosModules.default
+      #    ./hosts/server/configuration.nix
+      #  ];
+      #};
     };
   };
 }

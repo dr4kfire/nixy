@@ -14,7 +14,8 @@
     nixcord.url = "github:kaylorben/nixcord";
     sops-nix.url = "github:Mic92/sops-nix";
     nvf.url = "github:notashelf/nvf";
-    default-creds.url = "github:anotherhadi/default-creds";
+    bun2nix.url = "github:nix-community/bun2nix";
+
     nix-index-database = {
       url = "github:nix-community/nix-index-database";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -35,9 +36,12 @@
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    # Server
-    #eleakxir.url = "github:anotherhadi/eleakxir";
-    #nixarr.url = "github:rasmus-kirk/nixarr";
+    # FIXME: Deleted repo for now
+    # eleakxir.url = "github:anotherhadi/eleakxir";
+    nixarr.url = "github:rasmus-kirk/nixarr";
+    default-creds.url = "github:anotherhadi/default-creds";
+    blog.url = "github:anotherhadi/blog";
+    awesome-wallpapers.url = "github:anotherhadi/awesome-wallpapers";
   };
 
   outputs = inputs @ {nixpkgs, ...}: {
@@ -74,7 +78,7 @@
           ./hosts/pph/configuration.nix
         ];
       };
-      # Jack is my server
+      
       #jack = nixpkgs.lib.nixosSystem {
       #  modules = [
       #    {_module.args = {inherit inputs;};}

@@ -88,7 +88,7 @@
     };
 
     # Don't touch this
-    stateVersion = "26.05";
+    stateVersion = "24.05";
   };
 
   programs.home-manager.enable = true;

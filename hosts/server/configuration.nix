@@ -17,13 +17,13 @@
     ../../server-modules/adguardhome.nix
     ../../server-modules/arr.nix
     # ../../server-modules/eleakxir.nix
+    ../../server-modules/blog.nix
+    ../../server-modules/awesome-wallpapers.nix
     ../../server-modules/stirling-pdf.nix
     ../../server-modules/cyberchef.nix
-    ../../server-modules/linkding.nix
     ../../server-modules/mazanoke.nix
     ../../server-modules/nginx.nix
     ../../server-modules/fail2ban.nix
-    ../../server-modules/freshrss.nix
     ../../server-modules/default-creds.nix
     ../../server-modules/umami.nix
 

@@ -12,7 +12,7 @@ in {
 
     users.${username} = {
       isNormalUser = true;
-      initialPassword = "${username}";
+      initialPassword = "password";
       description = "${username} account";
       extraGroups = ["networkmanager" "wheel"];
     };

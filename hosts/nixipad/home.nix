@@ -56,6 +56,7 @@
       notesnook
       element-desktop
       clamtk
+      rnote # Handwritten note taking app
 
       # Dev
       go
@@ -84,7 +85,7 @@
     file.".face" = {source = ./profile_picture.png;};
 
     sessionVariables = {
-    #  AQ_DRM_DEVICES = "/dev/dri/card2:/dev/dri/card1"; # CHANGEME: Related to the GPU
+      #  AQ_DRM_DEVICES = "/dev/dri/card2:/dev/dri/card1"; # CHANGEME: Related to the GPU
     };
 
     # Don't touch this

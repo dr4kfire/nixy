@@ -70,6 +70,9 @@
       duckdb
       lazydocker
 
+      # Games
+      prismlauncher
+
       # Just cool
       peaclock
       cbonsai

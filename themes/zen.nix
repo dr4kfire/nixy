@@ -7,13 +7,13 @@
   options.theme = lib.mkOption {
     type = lib.types.attrs;
     default = {
-      rounding = 30;
-      gaps-in = 12;
-      gaps-out = 12 * 2;
+      rounding = 12;
+      gaps-in = 6;
+      gaps-out = 6 * 2;
       active-opacity = 0.99;
       inactive-opacity = 0.98;
       blur = false;
-      border-size = 4;
+      border-size = 1;
       animation-speed = "fast"; # "fast" | "medium" | "slow"
       fetch = "none"; # "nerdfetch" | "neofetch" | "pfetch" | "none"
       textColorOnWallpaper =
@@ -48,7 +48,7 @@
     cursor = {
       name = "BreezeX-RosePine-Linux";
       package = pkgs.rose-pine-cursor;
-      size = 38;
+      size = 24;
     };
 
     fonts = {

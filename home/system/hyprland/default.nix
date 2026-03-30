@@ -117,7 +117,7 @@ in {
         rounding = rounding;
         shadow = {
           enabled = true;
-          range = 20;
+          range = 12;
           render_power = 3;
         };
         blur = {

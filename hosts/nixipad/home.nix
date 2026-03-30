@@ -40,7 +40,7 @@
       # Apps
       vlc # Video player
       blanket # White-noise app
-      #obsidian # Note taking app
+      obsidian # Note taking app
       textpieces # Manipulate texts
       resources # Ressource monitor
       gnome-clocks # Clocks app

@@ -4,9 +4,9 @@
   ];
 
   services.clamav = {
-    daemon.enable = true;
-    updater.enable = true;
-    scanner.enable = true;
-    fangfrisch.enable = true;
+    daemon.enable = false;
+    updater.enable = false;
+    scanner.enable = false;
+    fangfrisch.enable = false;
   };
 }

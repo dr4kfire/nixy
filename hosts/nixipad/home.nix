@@ -57,6 +57,7 @@
       element-desktop
       clamtk
       rnote # Handwritten note taking app
+      krita
 
       # Dev
       go

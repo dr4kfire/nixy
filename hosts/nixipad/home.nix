@@ -67,7 +67,7 @@
       air
       duckdb
       lazydocker
-      clangd
+      clang
       gcc
 
       # godot-source
